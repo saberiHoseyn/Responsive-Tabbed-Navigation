@@ -45,8 +45,6 @@ header h1{
     float: none;
     background: transparent;
     text-align: right;
-    
-
 }
 
 .tab-navigation div{
@@ -64,6 +62,24 @@ header h1{
     font-weight: 700;
     padding: 0 2.8em 0 4.6em;
     color: #c3c2b9;
+}
+
+@media screen and (max-width: 860px){
+    .tab-navigation a {
+    padding: 0 2em 0 2em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .tab-navigation a {
+    padding: 0 1em 0 1em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .tab-navigation a {
+    padding: 0 .5em 0 .5em;
+    }
 }
 
 .tab-navigation .selected a{
